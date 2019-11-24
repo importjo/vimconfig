@@ -1,0 +1,30 @@
+> Task :compileJava UP-TO-DATE
+> Task :processResources NO-SOURCE
+> Task :classes UP-TO-DATE
+> Task :jar UP-TO-DATE
+> Task :startScripts UP-TO-DATE
+> Task :distTar UP-TO-DATE
+> Task :distZip UP-TO-DATE
+> Task :assemble UP-TO-DATE
+> Task :check
+> Task :build
+
+BUILD SUCCESSFUL in 925ms
+5 actionable tasks: 5 up-to-date
+> Task :compileJava UP-TO-DATE
+> Task :processResources NO-SOURCE
+> Task :classes UP-TO-DATE
+> Task :compileTestJava UP-TO-DATE
+> Task :processTestResources NO-SOURCE
+> Task :testClasses UP-TO-DATE
+> Task :test UP-TO-DATE
+
+BUILD SUCCESSFUL in 946ms
+3 actionable tasks: 3 up-to-date
+Sur la branche master
+Fichiers non suivis:
+	src/main/java/tcr/demo/.Fib.java.swp
+	src/test/java/tcr/demo/.AppTest.java.swp
+
+aucune modification ajoutée à la validation mais des fichiers non suivis sont présents
+HEAD est maintenant à 6fdb394 working
