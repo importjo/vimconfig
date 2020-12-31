@@ -37,4 +37,5 @@ nnoremap gV `[v`]
 
 " TCR config
 set autoread
-:autocmd BufWritePost *Test.java silent! execute "!tcr > tcrfeedback 2>&1" | redraw!
+:autocmd BufWritePost *Test.cs silent! execute "!tcrdotnet > tcrfeedback 2>&1" | redraw!
+" :autocmd BufWritePost *Test.java silent! execute "!tcr > tcrfeedback 2>&1" | redraw!
