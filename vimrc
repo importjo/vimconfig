@@ -35,10 +35,6 @@ nnoremap <leader><space> :nohlsearch<CR>
 " highlight last inserted text
 nnoremap gV `[v`]
 
-" Path --------------------------------
-" allow :find recursive
-set path+=**
-
 " TCR config
 set autoread
 :autocmd BufWritePost *Test.java silent! execute "!tcr > tcrfeedback 2>&1" | redraw!
